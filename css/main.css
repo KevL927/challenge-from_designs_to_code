@@ -1,0 +1,96 @@
+header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-top: 5px;
+  text-align: right;
+  position: fixed;
+  height: 30px;
+  background-color: lightgray;
+}
+
+nav {
+  right: 0;
+  position: absolute;
+  padding-right: 30px;
+}
+
+nav a {
+  font-size: 24px;
+  display: inline;
+  padding-right: 20px;
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:active {
+  color: purple;
+  text-decoration: none;
+}
+
+.logo {
+  left: 30px;
+  bottom: -18px;
+  position: absolute;
+}
+
+.searchfield{
+  position: relative;
+  top: 100px;
+  left: 120px;
+}
+
+.jobsearch-box {
+  height: 22px;
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid #DDDDDD;
+}
+
+.prev-next-buttons {
+  position: relative;
+  top: 120px;
+  left: 120px;
+}
+
+.display {
+  border-radius: 3px;
+  border: 1px solid #DDDDDD;
+  padding: 10px 10px 10px 10px;
+}
+
+.prev-next-buttons a:link, .prev-next-buttons a:visited, .prev-next-buttons a:active{
+  color: black;
+  text-decoration: none;
+}
+
+.prev-next-buttons a:hover{
+  text-decoration: underline;
+}
+
+.results {
+  position: relative;
+  top: 160px;
+  left: 120px;
+}
+
+.jobtitle {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.fa-star-o:hover {
+  color: yellow;
+}
+
+.jobdate {
+  color: slategray;
+  padding-left: 10px;
+}
+
+.jobcity {
+  color: slategray;
+}
